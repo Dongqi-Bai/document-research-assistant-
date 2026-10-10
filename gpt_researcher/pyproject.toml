@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpt-researcher"
+version = "0.1.0"
+description = "GPT Researcher (learning version) - 单链路研究报告引擎"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gpt_researcher*"]

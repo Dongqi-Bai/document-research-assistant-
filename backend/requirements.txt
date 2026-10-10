@@ -1,0 +1,36 @@
+# Backend-specific requirements
+# 按原版 gpt-researcher/backend/requirements.txt 裁剪
+
+# Core Framework
+fastapi>=0.104.1
+uvicorn>=0.24.0
+pydantic>=2.5.1
+python-dotenv>=1.0.0
+websockets>=13.1
+python-multipart>=0.0.6
+
+# LangChain v1
+langchain>=1.0.0
+langchain-classic>=1.0.0
+langchain-community>=0.4.0
+langchain-core>=1.0.0
+langchain-openai>=1.0.0
+langchain-text-splitters>=1.0.0
+
+# LLM & API
+openai>=1.3.3
+httpx>=0.28.1
+tavily-python>=0.7.12
+
+# Output formats
+aiofiles>=23.2.1
+mistune>=3.0.2
+md2pdf>=1.0.1
+python-docx>=1.1.0
+htmldocx>=0.0.6
+jinja2>=3.1.6
+
+# GPT-Researcher (用户自己的学习版, 位于 ../gpt_researcher)
+# 已通过以下命令 editable 安装到 venv:
+#   venv/Scripts/pip.exe install -e ../gpt_researcher
+# 如需重装: 先 pip uninstall gpt-researcher -y 再执行上面的命令

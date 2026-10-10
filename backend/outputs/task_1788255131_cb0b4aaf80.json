@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-01T17:32:11.474167",
+  "events": [
+    {
+      "timestamp": "2026-09-01T17:33:11.089076",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for 'What is the capital of France?'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-09-01T17:33:11.099342",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "Default Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-09-01T17:33:11.107034",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: What is the capital of France?...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}

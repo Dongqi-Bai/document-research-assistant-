@@ -1,0 +1,612 @@
+{
+  "timestamp": "2026-10-09T14:18:50.202669",
+  "events": [
+    {
+      "timestamp": "2026-10-09T14:19:04.184369",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for '\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:19:04.197089",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83e\udd16 AI\u667a\u80fd\u4f53\u4ee3\u7406",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:19:04.207435",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: \u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:19:04.932747",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.028414",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['\u5b66\u4e60\u578b\u667a\u80fd\u4f53 \u6700\u65b0\u7814\u7a76\u62a5\u544a 2026', 'learning agent \u6280\u672f\u67b6\u6784\u4e0e\u5e94\u7528\u7efc\u8ff0', '\u81ea\u4e3b\u5b66\u4e60\u667a\u80fd\u4f53 \u53d1\u5c55\u8d8b\u52bf \u6848\u4f8b', '\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a']...",
+        "metadata": [
+          "\u5b66\u4e60\u578b\u667a\u80fd\u4f53 \u6700\u65b0\u7814\u7a76\u62a5\u544a 2026",
+          "learning agent \u6280\u672f\u67b6\u6784\u4e0e\u5e94\u7528\u7efc\u8ff0",
+          "\u81ea\u4e3b\u5b66\u4e60\u667a\u80fd\u4f53 \u53d1\u5c55\u8d8b\u52bf \u6848\u4f8b",
+          "\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.065846",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u5b66\u4e60\u578b\u667a\u80fd\u4f53 \u6700\u65b0\u7814\u7a76\u62a5\u544a 2026'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.109140",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for 'learning agent \u6280\u672f\u67b6\u6784\u4e0e\u5e94\u7528\u7efc\u8ff0'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.133868",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u81ea\u4e3b\u5b66\u4e60\u667a\u80fd\u4f53 \u53d1\u5c55\u8d8b\u52bf \u6848\u4f8b'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.165243",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.954007",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://aws.amazon.com/cn/blogs/china/building-intelligent-report-generation-agent-with-aws-bedrock\n",
+        "metadata": "https://aws.amazon.com/cn/blogs/china/building-intelligent-report-generation-agent-with-aws-bedrock"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:07.980573",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://intl.cloud.baidu.com/zh/article/8753301\n",
+        "metadata": "https://intl.cloud.baidu.com/zh/article/8753301"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:08.010452",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://developer.nvidia.com/blog/build-a-report-generator-ai-agent-with-nvidia-nemotron-on-openrouter\n",
+        "metadata": "https://developer.nvidia.com/blog/build-a-report-generator-ai-agent-with-nvidia-nemotron-on-openrouter"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:08.036420",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://medium.com/neo4j/implementing-an-automated-report-generation-agent-fe1c58b1f4cf\n",
+        "metadata": "https://medium.com/neo4j/implementing-an-automated-report-generation-agent-fe1c58b1f4cf"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:08.056401",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.langchain.com/blog/structured-report-generation-blueprint\n",
+        "metadata": "https://www.langchain.com/blog/structured-report-generation-blueprint"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:08.081121",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:08.111155",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.101038",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://powerdrill.ai/zh-CN/blog/self-improving-data-agents\n",
+        "metadata": "https://powerdrill.ai/zh-CN/blog/self-improving-data-agents"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.139392",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.kimi.com/resources/ai-agent-use-cases\n",
+        "metadata": "https://www.kimi.com/resources/ai-agent-use-cases"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.168282",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.edu.cn/xxh/xy/xytp/202606/t20260617_2746057.shtml\n",
+        "metadata": "https://www.edu.cn/xxh/xy/xytp/202606/t20260617_2746057.shtml"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.200265",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.nvidia.cn/glossary/ai-agents\n",
+        "metadata": "https://www.nvidia.cn/glossary/ai-agents"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.234861",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://13115299.s21i.faiusr.com/61/1/ABUIABA9GAAgno7iywYoypHHqAU.pdf\n",
+        "metadata": "https://13115299.s21i.faiusr.com/61/1/ABUIABA9GAAgno7iywYoypHHqAU.pdf"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.263722",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.291709",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.592132",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://segmentfault.com/a/1190000047820216\n",
+        "metadata": "https://segmentfault.com/a/1190000047820216"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.624078",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.smartcity.team/reports/jiazi_induaiagent\n",
+        "metadata": "https://www.smartcity.team/reports/jiazi_induaiagent"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.672122",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.iedumedia.com/news/newsinfo/1645\n",
+        "metadata": "https://www.iedumedia.com/news/newsinfo/1645"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.712789",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://m.ageclub.net/article-detail/8653\n",
+        "metadata": "https://m.ageclub.net/article-detail/8653"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.752829",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://zhuanlan.zhihu.com/p/2059763933968437385\n",
+        "metadata": "https://zhuanlan.zhihu.com/p/2059763933968437385"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.800361",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:09.850762",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.203951",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: http://solariar.net/notes/llm_agents.html\n",
+        "metadata": "http://solariar.net/notes/llm_agents.html"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.242349",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.tencent.com/developer/article/2637126\n",
+        "metadata": "https://cloud.tencent.com/developer/article/2637126"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.272513",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://developer.volcengine.com/articles/7485526538503323659\n",
+        "metadata": "https://developer.volcengine.com/articles/7485526538503323659"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.307711",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cdut.edu.cn/__local/6/EB/BA/861D150B7E7BC527A5BAF67AB22_38756C68_2A25976.pdf\n",
+        "metadata": "https://www.cdut.edu.cn/__local/6/EB/BA/861D150B7E7BC527A5BAF67AB22_38756C68_2A25976.pdf"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.344333",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.mlpod.com/papers/1392\n",
+        "metadata": "https://www.mlpod.com/papers/1392"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.396285",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:10.429263",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.027662",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 5 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.094205",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 15 total images",
+        "metadata": [
+          "https://powerdrill.ai/_next/image?url=https%3A%2F%2Fstatic.powerdrill.ai%2Fbloom-1.5%2Fblog%2FqPHzSkSVI%2Fhero.png&w=3840&q=75",
+          "https://www.edu.cn/c_images/xxh/2026zw812.jpg",
+          "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/1d9cuue9l51jas5bsvmk0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+          "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/1d9cuuet3v89kkemm23jg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.132161",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.157926",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u81ea\u4e3b\u5b66\u4e60\u667a\u80fd\u4f53 \u53d1\u5c55\u8d8b\u52bf \u6848\u4f8b...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.230564",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.259819",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 31 total images",
+        "metadata": [
+          "https://www.smartcity.team/wp-content/uploads/2026/08/440b3b67c65245d3019a9ca07274c463.png",
+          "https://www.smartcity.team/wp-content/uploads/2026/08/55f6539d18e7f180482cca450dfff60c.png",
+          "https://www.smartcity.team/wp-content/uploads/2026/08/c3d8d2cea470593d130dd4cf475fcf46.png",
+          "https://www.smartcity.team/wp-content/uploads/2026/08/16ddbfa0cf040b755d9c34ad0d56b7f0.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.292907",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:11.328243",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u5b66\u4e60\u578b\u667a\u80fd\u4f53 \u6700\u65b0\u7814\u7a76\u62a5\u544a 2026...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:12.618586",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:12.644148",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 25 total images",
+        "metadata": [
+          "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community_logo.svg",
+          "https://p26-passport.byteacctimg.com/img/user-avatar/9e423502b6ad8410bf330e753d24ebe7~300x300.image",
+          "https://portal.volccdn.com/obj/volcfe-scm/deploy/volc_developer_/42325/static/image/rec-product.af325ba1.png",
+          "https://p6-volc-community-sign.byteimg.com/tos-cn-i-tlddhu82om/8c842642c823453b8680312e0ea14118~tplv-tlddhu82om-image.image?=&rk3s=8031ce6d&x-expires=1791613211&x-signature=G9ozD6yBePnhdTymrX1OmSRtYc0%3D"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:12.674247",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:12.698599",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: learning agent \u6280\u672f\u67b6\u6784\u4e0e\u5e94\u7528\u7efc\u8ff0...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:49.272499",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:49.314857",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 28 total images",
+        "metadata": [
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-1.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-2.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-3.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-4.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:49.343460",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:20:49.390477",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:22:00.526804",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.07740094",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:22:00.621766",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for '\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:24:45.479277",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for '\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "Yongge AI Notes. (2026, March 11). *Agent \u5373\u7cfb\u7edf\uff1a\u9762\u5411\u53ef\u9760\u6027\u7684\u667a\u80fd\u4f53\u67b6\u6784\u3001\u591a\u7ef4\u8bc4\u4f30\u4e0e\u672a\u6765\u6311\u6218*. Tencent Cloud Developer Community. [https://cloud.tencent.com/developer/article/2637126](https://cloud.tencent.com/developer/article/2637126)",
+    "metadata": [
+      "https://powerdrill.ai/_next/image?url=https%3A%2F%2Fstatic.powerdrill.ai%2Fbloom-1.5%2Fblog%2FqPHzSkSVI%2Fhero.png&w=3840&q=75",
+      "https://www.edu.cn/c_images/xxh/2026zw812.jpg",
+      "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/1d9cuue9l51jas5bsvmk0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-17/1d9cuuet3v89kkemm23jg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "https://www.smartcity.team/wp-content/uploads/2026/08/440b3b67c65245d3019a9ca07274c463.png",
+      "https://www.smartcity.team/wp-content/uploads/2026/08/55f6539d18e7f180482cca450dfff60c.png",
+      "https://www.smartcity.team/wp-content/uploads/2026/08/c3d8d2cea470593d130dd4cf475fcf46.png",
+      "https://www.smartcity.team/wp-content/uploads/2026/08/16ddbfa0cf040b755d9c34ad0d56b7f0.png",
+      "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulopslf/developer/community_logo.svg",
+      "https://p26-passport.byteacctimg.com/img/user-avatar/9e423502b6ad8410bf330e753d24ebe7~300x300.image"
+    ]
+  }
+}

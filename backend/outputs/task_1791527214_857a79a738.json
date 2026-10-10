@@ -1,0 +1,612 @@
+{
+  "timestamp": "2026-10-09T14:26:54.811209",
+  "events": [
+    {
+      "timestamp": "2026-10-09T14:27:15.278915",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:15.294102",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83e\udd16 AI\u667a\u80fd\u4f53\u7814\u7a76\u4ee3\u7406",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:15.306536",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: \u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:17.769015",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:27.199623",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f I will conduct my research based on the following queries: ['\u5b66\u4e60\u667a\u80fd\u4f53\u7684\u5b9a\u4e49\u4e0e\u6838\u5fc3\u67b6\u6784', '2026\u5e74\u5b66\u4e60\u578bAI\u4ee3\u7406\u6700\u65b0\u7814\u7a76\u8fdb\u5c55', '\u5b66\u4e60agent\u5728\u5404\u884c\u4e1a\u7684\u5e94\u7528\u6848\u4f8b\u4e0e\u6548\u679c', '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a']...",
+        "metadata": [
+          "\u5b66\u4e60\u667a\u80fd\u4f53\u7684\u5b9a\u4e49\u4e0e\u6838\u5fc3\u67b6\u6784",
+          "2026\u5e74\u5b66\u4e60\u578bAI\u4ee3\u7406\u6700\u65b0\u7814\u7a76\u8fdb\u5c55",
+          "\u5b66\u4e60agent\u5728\u5404\u884c\u4e1a\u7684\u5e94\u7528\u6848\u4f8b\u4e0e\u6548\u679c",
+          "\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:27.210215",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u5b66\u4e60\u667a\u80fd\u4f53\u7684\u5b9a\u4e49\u4e0e\u6838\u5fc3\u67b6\u6784'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:27.217478",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '2026\u5e74\u5b66\u4e60\u578bAI\u4ee3\u7406\u6700\u65b0\u7814\u7a76\u8fdb\u5c55'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:27.225186",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u5b66\u4e60agent\u5728\u5404\u884c\u4e1a\u7684\u5e94\u7528\u6848\u4f8b\u4e0e\u6548\u679c'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:27.231924",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d Running research for '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.310913",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://aws.amazon.com/cn/blogs/china/building-intelligent-report-generation-agent-with-aws-bedrock\n",
+        "metadata": "https://aws.amazon.com/cn/blogs/china/building-intelligent-report-generation-agent-with-aws-bedrock"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.334520",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.pingwest.com/a/304920\n",
+        "metadata": "https://www.pingwest.com/a/304920"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.360491",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://manus.im/zh-cn/playbook/report-generator\n",
+        "metadata": "https://manus.im/zh-cn/playbook/report-generator"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.378711",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/8-artificial-intelligence/ai-agents.html\n",
+        "metadata": "https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/8-artificial-intelligence/ai-agents.html"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.397743",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra09-Agent%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E8%B8%A9%E5%9D%91%E4%B8%8E%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md\n",
+        "metadata": "https://github.com/datawhalechina/hello-agents/blob/main/Extra-Chapter/Extra09-Agent%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5%E8%B8%A9%E5%9D%91%E4%B8%8E%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.423548",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.449325",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.690881",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://blog.csdn.net/m0_59235945/article/details/154738611\n",
+        "metadata": "https://blog.csdn.net/m0_59235945/article/details/154738611"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.714676",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://jimmysong.io/zh/book/ai-handbook/agent/agent-basics\n",
+        "metadata": "https://jimmysong.io/zh/book/ai-handbook/agent/agent-basics"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.742729",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.ibm.com/cn-zh/think/topics/ai-agents\n",
+        "metadata": "https://www.ibm.com/cn-zh/think/topics/ai-agents"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.768950",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://yeasy.gitbook.io/agentic_ai_guide\n",
+        "metadata": "https://yeasy.gitbook.io/agentic_ai_guide"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.794056",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/discover/what-are-ai-agents?hl=zh-CN\n",
+        "metadata": "https://cloud.google.com/discover/what-are-ai-agents?hl=zh-CN"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.820163",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:29.845769",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.253913",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cnblogs.com/sddai/p/22181149\n",
+        "metadata": "https://www.cnblogs.com/sddai/p/22181149"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.287651",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://m.36kr.com/p/3658889094603398\n",
+        "metadata": "https://m.36kr.com/p/3658889094603398"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.310614",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://zhuanlan.zhihu.com/p/1996902325206405568\n",
+        "metadata": "https://zhuanlan.zhihu.com/p/1996902325206405568"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.333195",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://cloud.google.com/resources/content/ai-agent-trends-2026?hl=zh-CN\n",
+        "metadata": "https://cloud.google.com/resources/content/ai-agent-trends-2026?hl=zh-CN"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.370462",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://caifuhao.eastmoney.com/news/20260605170114382678080\n",
+        "metadata": "https://caifuhao.eastmoney.com/news/20260605170114382678080"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.409955",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.442458",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.470100",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.kimi.ai/zh-hans/resources/ai-agent-use-cases\n",
+        "metadata": "https://www.kimi.ai/zh-hans/resources/ai-agent-use-cases"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.493755",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.thepaper.cn/newsDetail_forward_28772976\n",
+        "metadata": "https://www.thepaper.cn/newsDetail_forward_28772976"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.514434",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.shaqiu.cn/article/4NDrLga8Ymx1\n",
+        "metadata": "https://www.shaqiu.cn/article/4NDrLga8Ymx1"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.542641",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://www.cdut.edu.cn/__local/6/EB/BA/861D150B7E7BC527A5BAF67AB22_38756C68_2A25976.pdf\n",
+        "metadata": "https://www.cdut.edu.cn/__local/6/EB/BA/861D150B7E7BC527A5BAF67AB22_38756C68_2A25976.pdf"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.563233",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 Added source url to research: https://blog.csdn.net/m0_59235945/article/details/161233367\n",
+        "metadata": "https://blog.csdn.net/m0_59235945/article/details/161233367"
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.584884",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 Researching for relevant information across multiple sources...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:30.607486",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 Scraping content from 5 URLs...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:32.584039",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:32.607471",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 25 total images",
+        "metadata": [
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-1.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-2.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-3.jpg",
+          "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-4.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:32.615949",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:32.626585",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:33.776297",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 3 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:33.786880",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 25 total images",
+        "metadata": [
+          "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_pcFfl4rEr",
+          "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_ydu7DZ4yN",
+          "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_F4Kvvj9uq",
+          "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_BMGiUUP3u"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:33.798036",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:33.807881",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u5b66\u4e60agent\u5728\u5404\u884c\u4e1a\u7684\u5e94\u7528\u6848\u4f8b\u4e0e\u6548\u679c...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:50.911891",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 4 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:50.922342",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 24 total images",
+        "metadata": [
+          "https://assets.ibm.com/is/image/ibm/ai-agents-image1?ts=1791308465632&dpr=off",
+          "https://assets.ibm.com/is/image/ibm/ai-agents-image2?ts=1791308465997&dpr=off",
+          "https://assets.ibm.com/is/image/ibm/ai-agents-image3?ts=1791308466354&dpr=off",
+          "https://assets.ibm.com/is/image/ibm/ai-agents-image4?ts=1791308466623&dpr=off"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:50.933421",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:50.943676",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: \u5b66\u4e60\u667a\u80fd\u4f53\u7684\u5b9a\u4e49\u4e0e\u6838\u5fc3\u67b6\u6784...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:51.826567",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 Scraped 2 pages of content",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:51.838290",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f Selected 4 new images from 16 total images",
+        "metadata": [
+          "https://s2.loli.net/2022/03/29/4ZNBneljWp3igVL.png",
+          "https://www.cnblogs.com/skins/custom/images/logo.gif",
+          "https://s3.ax1x.com/2020/12/02/D5XzUP.png",
+          "https://img2020.cnblogs.com/blog/938105/202010/938105-20201013171833350-276632012.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:51.848449",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 Scraping complete",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:27:51.859317",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda Getting relevant content based on query: 2026\u5e74\u5b66\u4e60\u578bAI\u4ee3\u7406\u6700\u65b0\u7814\u7a76\u8fdb\u5c55...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:28:34.088254",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.02878184",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:28:34.126569",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f Writing report for '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2026-10-09T14:32:04.321865",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd Report written for '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5b66\u4e60agent\u7684\u62a5\u544a'",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "\u62d3\u7aeftecdat. (2026, June 5). *2026\u5e74Agent\u667a\u80fd\u4f53\u6df1\u5ea6\u7814\u7a76\u62a5\u544a\uff1a\u95ee\u7b54\u5230\u884c\u52a8\u2014\u4ea7\u4e1a\u5316\u8def\u5f84\u4e0e\u98ce\u9669\u5168\u666f*. \u4e1c\u65b9\u8d22\u5bcc\u7f51. [https://caifuhao.eastmoney.com/news/20260605170114382678080](https://caifuhao.eastmoney.com/news/20260605170114382678080)",
+    "metadata": [
+      "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-1.jpg",
+      "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-2.jpg",
+      "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-3.jpg",
+      "https://d2908q01vomqb2.cloudfront.net/472b07b9fcf2c2451e8781e944bf5f77cd8457c8/2025/09/28/bedrock-4.png",
+      "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_pcFfl4rEr",
+      "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_ydu7DZ4yN",
+      "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_F4Kvvj9uq",
+      "https://shaqiu-hub.oss-cn-hangzhou.aliyuncs.com/article/2676_BMGiUUP3u",
+      "https://assets.ibm.com/is/image/ibm/ai-agents-image1?ts=1791308465632&dpr=off",
+      "https://assets.ibm.com/is/image/ibm/ai-agents-image2?ts=1791308465997&dpr=off"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+"""Utility functions for GPT Researcher retrievers.
+
+This module provides helper functions and constants used by the
+various search retriever implementations.
+"""
+
+import importlib.util
+import logging
+import os
+
+logger = logging.getLogger(__name__)
+
+
+def check_pkg(pkg: str) -> None:
+    """
+    Checks if a package is installed and raises an error if not.
+
+    Args:
+        pkg (str): The package name
+
+    Raises:
+        ImportError: If the package is not installed
+    """
+    if not importlib.util.find_spec(pkg):
+        pkg_kebab = pkg.replace("_", "-")
+        raise ImportError(
+            f"Unable to import {pkg_kebab}. Please install with "
+            f"`pip install -U {pkg_kebab}`"
+        )
+
+# Valid retrievers for fallback
+VALID_RETRIEVERS = [
+    "tavily",
+    "groundroute",
+    "custom",
+    "duckduckgo",
+    "searchapi",
+    "serper",
+    "serpapi",
+    "google",
+    "searx",
+    "bing",
+    "brave",
+    "arxiv",
+    "semantic_scholar",
+    "pubmed_central",
+    "exa",
+    "crw",
+    "getxapi",
+    "mcp",
+    "xquik",
+    "openalex",
+    "mock"
+]
+
+def get_all_retriever_names():
+    """
+    Get all available retriever names
+    :return: List of all available retriever names
+    :rtype: list
+    """
+    try:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Get all items in the current directory
+        all_items = os.listdir(current_dir)
+
+        # Filter out only the directories, excluding __pycache__
+        retrievers = [
+            item for item in all_items
+            if os.path.isdir(os.path.join(current_dir, item)) and not item.startswith('__')
+        ]
+
+        return retrievers
+    except Exception as e:
+        logger.error(f"Error getting retrievers: {e}")
+        return VALID_RETRIEVERS
